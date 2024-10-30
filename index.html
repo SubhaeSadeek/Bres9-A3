@@ -36,11 +36,13 @@
 			}
 		</style>
 	</head>
-	<body class="manrope-fonts w-11/12 mx-auto">
-		<header>
+	<body class="manrope-fonts">
+		<header class="bg-gradient-to-t from-[#fff] to-[rgba(255, 255, 255, 0.00)]">
 			<!-- navbar section start -->
-			<div class="navbar bg-base-100">
-				<div class="navbar-start">
+			<div class="navbar w-11/12 mx-auto">
+				<div
+					class="navbar-start gap-2 items-center w-full lg:w-1/2 justify-between lg:justify-start flex-row-reverse lg:flex-row"
+				>
 					<div class="dropdown">
 						<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
 							<svg
@@ -69,10 +71,20 @@
 							<li><a>Contact Us</a></li>
 						</ul>
 					</div>
-					<a class="text-2xl font-extrabold"
-						><span class="font-semibold underline decoration-wavy">Spacio</span
-						><span class="text-red-700 underline">Interio</span></a
-					>
+					<div>
+						<i
+							class="fa-solid fa-arrow-right bg-[#ABEF5F] text-white -rotate-45 p-3 rounded-full"
+						></i>
+						<a class="text-2xl font-extrabold cursor-pointer"
+							><span
+								class="font-semibold border-[#ABEF5F] border-2 p-1 rounded-s-lg"
+								>Spacio</span
+							><span
+								class="border-2 box-border border-[#ABEF5F] p-1 rounded-e-lg bg-[#ABEF5F]"
+								>Interio</span
+							></a
+						>
+					</div>
 				</div>
 				<div class="navbar-center hidden lg:flex">
 					<ul class="flex gap-6 px-1 text-[#737373] font-normal text-base">
@@ -103,7 +115,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="navbar-end flex gap-10">
+				<div class="navbar-end ml-4 hidden lg:inline-flex justify-evenly">
 					<i class="fa-solid fa-magnifying-glass text-[#737373]"></i>
 					<i class="fa-solid fa-cart-shopping text-[#737373]"></i>
 
@@ -116,6 +128,33 @@
 								class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-1 rounded-full"
 							></i></button
 					></a>
+				</div>
+			</div>
+			<!-- hero section -->
+			<div class="hero bg-none w-11/12 mx-auto">
+				<div class="hero-content text-center">
+					<div class="">
+						<div>
+							<img class="mx-auto" src="./assets/banner.png" alt="" />
+						</div>
+						<h1 class="text-6xl font-extrabold capitalize">
+							A barn house of this design has a striking appearance
+						</h1>
+						<p class="py-6 w-3/4 mx-auto font-medium text-[#494949]">
+							The barn house captivates with its blend of rustic charm and
+							modern sophistication, featuring weathered wood, sleek metal
+							accents, and large windows that flood the space with natural
+							light.
+						</p>
+						<button
+							class="w-52 px-5 py-3 rounded-[32px] bg-[rgba(171,239,95,0.50)] flex justify-around items-center text-xl font-bold mx-auto border border-[#ABEF5F]"
+						>
+							View Details
+							<i
+								class="fa-solid fa-arrow-right bg-[#ABEF5F] text-white -rotate-45 p-1 rounded-full"
+							></i>
+						</button>
+					</div>
 				</div>
 			</div>
 		</header>
