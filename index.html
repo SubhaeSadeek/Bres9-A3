@@ -44,7 +44,7 @@
 					class="navbar-start gap-2 items-center w-full lg:w-1/2 justify-between lg:justify-start flex-row-reverse lg:flex-row"
 				>
 					<div class="dropdown">
-						<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+						<div tabindex="0" role="button" class="lg:hidden">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								class="h-5 w-5"
@@ -229,7 +229,7 @@
 				<!-- achievement section -->
 
 				<div
-					class="w-11/12 mx-auto p-8 mt-14 rounded-3xl bg-white flex justify-around"
+					class="w-11/12 mx-auto p-8 mt-14 rounded-3xl bg-white flex flex-col lg:flex-row gap-3 lg:justify-around"
 				>
 					<!-- card-1 -->
 					<div class="text-center">
@@ -277,7 +277,7 @@
 						</p>
 					</div>
 					<!-- card container -->
-					<div class="w-11/12 mx-auto mt-8 flex gap-6">
+					<div class="w-11/12 mx-auto mt-8 flex flex-col lg:flex-row gap-6">
 						<!-- concept section --card-1 -->
 						<div class="bg-[#E7C1D3] rounded-2xl p-6">
 							<img src="./assets/concept.png" alt="" />
@@ -344,6 +344,77 @@
 						of design.
 					</p>
 				</div>
+				<!-- grid section -->
+				<!-- first row -->
+				<div class="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-7 gap-6 mt-8">
+					<div
+						class="card lg:card-side bg-base-100 lg:col-span-5 p-6 border border-slate-200"
+					>
+						<figure>
+							<img
+								class="h-full"
+								src="./assets/img1.png"
+								alt="home on a hand"
+							/>
+						</figure>
+						<div class="card-body">
+							<h2 class="card-title">Commercial</h2>
+							<p>
+								Design conceptualization is the first step towards acheving a
+								time testing architectural piece.
+							</p>
+							<div class="">
+								<button
+									class="px-4 py-2 rounded-[32px] font-extrabold text-xl mx-auto border border-slate-200"
+								>
+									View Details
+									<i
+										class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full ml-3 p-1"
+									></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-span-2 p-6 border border-slate-200 rounded-2xl">
+						<img class="w-full h-full" src="./assets/img2.png" alt="" />
+					</div>
+				</div>
+				<!-- second row -->
+				<div class="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-9 gap-6 mt-8">
+					<div class="col-span-2 p-6 border border-slate-200 rounded-2xl">
+						<img class="w-full h-full" src="./assets/img3.png" alt="">
+					</div>
+					<div
+						class="card lg:card-side bg-base-100 lg:col-span-5 p-6 border border-slate-200"
+					>
+						<figure>
+							<img
+								class="w-full h-full rounded-2xl"
+								src="./assets/img4.png"
+								alt="home with lush green on verandah"
+							/>
+						</figure>
+						<div class="card-body">
+							<h2 class="card-title">Residential</h2>
+							<p>
+								Design conceptualization is the first step towards acheving a
+								time testing architectural piece.
+							</p>
+							<div class="">
+								<button
+									class="px-4 py-2 rounded-[32px] font-extrabold text-xl mx-auto border border-slate-200"
+								>
+									View Details
+									<i
+										class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full ml-3 p-1"
+									></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="lg:col-span-2 p-6 border border-slate-200 rounded-2xl">
+						<img class="w-full h-full" src="./assets/img5.png" alt="">
+					</div>
 			</section>
 		</main>
 		<footer></footer>
